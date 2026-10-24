@@ -14,6 +14,7 @@ import {
   Award,
   ChevronRight,
   Star,
+  Compass,
 } from 'lucide-react';
 
 const HomePage = () => {
