@@ -1,0 +1,14 @@
+{
+  "name": "hotelpro-solution",
+  "version": "1.0.0",
+  "description": "HotelPro (Roomly) - Enterprise Full-Stack MERN Hotel Management System",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed"
+  },
+  "keywords": ["mern", "hotel-management", "booking-engine", "react", "node", "express", "mongodb"],
+  "author": "HotelPro Development Team",
+  "license": "ISC"
+}
