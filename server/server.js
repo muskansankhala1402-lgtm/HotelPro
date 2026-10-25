@@ -24,9 +24,9 @@ const notificationRoutes = require('./routes/notificationRoutes');
 
 const app = express();
 
-// Middlewares
+// Middlewares — allow all origins for demo/cloud deployments
 app.use(cors({
-  origin: '*',
+  origin: true,
   credentials: true,
 }));
 app.use(express.json());
